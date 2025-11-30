@@ -32,16 +32,13 @@
 
 ## 🧰 Programação
 
-Python, os pacotes principais são:
-- pygame, RPi.GPIO, rpi_ws281x, mfrc522.
-
-<img src="images/codigo1.png" alt="codigo" width="600"/>
-<img src="images/codigo4.png" alt="codigo" width="600"/>
+Python, os pacotes principais são: pygame, RPi.GPIO, rpi_ws281x, mfrc522.
+| <img src="images/gwent constr (4).jpg" alt="terminal" width="500"/> | 
 
 ---
 ## ⚙️ Processo de criação/construção
 
-- Criei a lógica de programação e algoritmos, obtive muito auxílio do ChatGPT com a sintaxe Python, bem como a instalação das libs e interação com os pacotes e dispositivos.
+- Criei a lógica de programação e algoritmos, obtive auxílio do ChatGPT com a sintaxe Python, bem como a instalação das libs e interação com os pacotes e dispositivos.
 - As orientações de eletrónica e ligações ao Raspberry pi foram dados pelo ChatGPT.
 - As músicas em background são originais do jogo Gwent, versão "The Witcher 3 - Wild Hunt".
 - Alguns efeitos sonoros são originais do jogo Gwent, outros são sons genéricos editados.
@@ -62,6 +59,7 @@ Todos esses trabalhos foram feitos por mim.
 | Alguns efeitos ou fileiras foram alterados |
 | Os textos foram traduzidos para português |
 | <img src="images/Cartas.png" alt="Cartas" width="500"/> | 
+| <img src="images/gwent constr (1).jpg" alt="Cartas" width="500"/> | 
 
 | Tabela de cartas do Excel |
 |------------------------|
@@ -70,17 +68,19 @@ Todos esses trabalhos foram feitos por mim.
 
 | Design do Display (interface) |
 |------------------------|
-| Pontuação dos jogadores |
-| A vez do jogador |
-| Quantidade de cartas nas mãos de cada um |
-| Efeitos ativos |
-| Nomes das cartas, instruções e avisos |
+| Nomes das cartas, instruções, avisos, etc |
 | <img src="images/Interface.png" alt="Interface" width="500"/> |
+
+| Projeto 3D |
+|------------------------|
+| Impressos em impressora FDM |
+| <img src="images/3d design.png" alt="Interface" width="500"/> |
+| <img src="images/gwent constr (5).jpg" alt="Interface" width="500"/> |
 
 | Gravações no tabuleiro |
 |------------------------|
 | Desenhos 2D feitos para gravar a peça à laser |
-| <img src="images/gravacao 1.png" alt="Tabuleiro" width="500"/> |
+| <img src="images/gravacao.png" alt="Tabuleiro" width="500"/> |
 
 ---
 
@@ -90,16 +90,19 @@ Todos esses trabalhos foram feitos por mim.
 - O módulo main.py é responsável pelo loop principal do jogo, enquanto os demais módulos executam ações adicionais ou controlam dispositivos eletrónicos.
 - O arquivo JSON contém todos os dados das cartas.
   
-| Diagrama |
+| Diagrama de módulos |
 |------------------------| 
 | <img src="images/Diagrama Funcoes.png" alt="Diagrama" width="1000"/> |
 - As setas duplas indicam que o módulo recebe e envia informações.
 - Os módulos verdes possuem sua própria execução. O led_process.py é separado pois precisa de permissão especial.
 
-| JSON |
-|------------------------| 
-| <img src="images/cartas-excel 2.png" alt="json" width="350"/> |
+Exemplos:
 
+| graficos.py & interface.py |
+|------------------------|
+| Controlam o background, ícones, símbolos e todos os textos |
+| <img src="images/graficos.py.png" alt="graf interf" width="500"/> |
+| <img src="images/interface.py.png" alt="graf interf" width="500"/> |
 
 ---
 ## 🎯 O jogo em si
@@ -142,27 +145,23 @@ Fluxo simplificado abaixo:
 
 ## 🖼️ Imagens de conceito renderizadas
 
-| Tela de início |
+| Comentários Visuais |
 |------------------------| 
 | Antes de iniciar a rodada, os leds funcionam como um arco-íris |
 | O arco-íris é ativado durante o jogo ao usar a carta de Incentivo na fileira desejada |
-| <img src="images/gwent_render(4).png" alt="render" width="700"/> |
-| <img src="images/gwent_render(2).png" alt="render" width="700"/> |
-
-| Efeitos temporais |
-|------------------------| 
 | A fileira com o efeito Nevoeiro, Nevasca ou Tempestade ativo fica com o led acesso em azul |
-| <img src="images/gwent_render(3).png" alt="render" width="700"/> |
-
-| Vidas restantes e Botões de ação |
-|------------------------| 
 | Os 2 pares de leds acima do Display indicam a quantidade de vidas restantes de cada jogador |
 | Os 3 botões abaixo do Display são utilizados para ações específicas e possuem leds indicadores |
-| <img src="images/gwent_render(1).png" alt="render" width="700"/> |
+| <img src="images/gwent_render(4).png" alt="render" width="700"/> |
+| <img src="images/gwent_render(3).png" alt="render" width="700"/> |
 
 ## Imagens e Vídeos reais
 
+| <img src="images/gwent constr (3).jpg" alt="render" width="700"/> |
+
 🚧 🧭 ... Em atualização ...
+
+
 
 ## Próximos passos.
 
