@@ -156,7 +156,7 @@ Fluxo simplificado abaixo:
 | <img src="images/gwent_render(4).png" alt="render" width="700"/> |
 | <img src="images/gwent_render(3).png" alt="render" width="700"/> |
 
-## Imagens e Vídeos reais
+## 🖼️ Imagens e Vídeos reais 🎬
 
 | Clique para ver o vídeo de apresentação 🔽 |
 |------------------------| 
