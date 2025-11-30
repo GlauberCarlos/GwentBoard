@@ -157,7 +157,9 @@ Fluxo simplificado abaixo:
 | <img src="images/gwent_render(3).png" alt="render" width="700"/> |
 
 ## Imagens e Vídeos reais
-
+.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_kUl0WX-bwk?si=IDS91_LsGSfpiGRR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+.
 | <img src="images/gwent constr (3).jpg" alt="render" width="700"/> |
 
 🚧 🧭 ... Em atualização ...
