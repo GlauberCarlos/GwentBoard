@@ -33,7 +33,8 @@
 ## 🧰 Programação
 
 Python, os pacotes principais são: pygame, RPi.GPIO, rpi_ws281x, mfrc522.
-| <img src="images/gwent constr (4).jpg" alt="terminal" width="500"/> | 
+.
+<img src="images/gwent constr (4).jpg" alt="terminal" width="500"/>
 
 ---
 ## ⚙️ Processo de criação/construção
