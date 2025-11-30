@@ -2,7 +2,7 @@
 "Gwent Board" é o projeto de um tabuleiro para 2 jogadores que mistura interações físicas e digitais.
 É baseado inteiramente no jogo Gwent, na sua versão presente em The Witcher 3 - Wild Hunt, com ligeiras modificações.
 
-<img src="inicio.png" alt="inicio" width="1000"/>
+<img src="images/inicio.png" alt="inicio" width="1000"/>
 
 ---
 
@@ -34,18 +34,14 @@
 
 Python, os pacotes principais são:
 - pygame, RPi.GPIO, rpi_ws281x, mfrc522.
-- Trechos de alguns módulos abaixo:
 
-<img src="codigo1.png" alt="codigo" width="600"/>
-<img src="codigo2.png" alt="codigo" width="600"/>
-<img src="codigo3.png" alt="codigo" width="300"/>
-<img src="codigo4.png" alt="codigo" width="600"/>
-<img src="codigo5.png" alt="codigo" width="500"/>
+<img src="images/codigo1.png" alt="codigo" width="600"/>
+<img src="images/codigo4.png" alt="codigo" width="600"/>
 
 ---
 ## ⚙️ Processo de criação/construção
 
-- Criei a lógica de programação e algoritmos, obtive muito auxílio do ChatGPT com a linguagem Python, bem como a instalação das libs e interação com os pacotes e dispositivos.
+- Criei a lógica de programação e algoritmos, obtive muito auxílio do ChatGPT com a sintaxe Python, bem como a instalação das libs e interação com os pacotes e dispositivos.
 - As orientações de eletrónica e ligações ao Raspberry pi foram dados pelo ChatGPT.
 - As músicas em background são originais do jogo Gwent, versão "The Witcher 3 - Wild Hunt".
 - Alguns efeitos sonoros são originais do jogo Gwent, outros são sons genéricos editados.
@@ -65,12 +61,12 @@ Todos esses trabalhos foram feitos por mim.
 | Facções foram adicionadas às cartas que não possuíam |
 | Alguns efeitos ou fileiras foram alterados |
 | Os textos foram traduzidos para português |
-| <img src="Cartas.png" alt="Cartas" width="500"/> | 
+| <img src="images/Cartas.png" alt="Cartas" width="500"/> | 
 
 | Tabela de cartas do Excel |
 |------------------------|
 | Usado para organizar as características de cada carta |
-| <img src="cartas-excel 1.png" alt="Cartas" width="500"/> |
+| <img src="images/cartas-excel 1.png" alt="Cartas" width="500"/> |
 
 | Design do Display (interface) |
 |------------------------|
@@ -79,12 +75,12 @@ Todos esses trabalhos foram feitos por mim.
 | Quantidade de cartas nas mãos de cada um |
 | Efeitos ativos |
 | Nomes das cartas, instruções e avisos |
-| <img src="Interface.png" alt="Interface" width="500"/> |
+| <img src="images/Interface.png" alt="Interface" width="500"/> |
 
 | Gravações no tabuleiro |
 |------------------------|
 | Desenhos 2D feitos para gravar a peça à laser |
-| <img src="gravacao 1.png" alt="Tabuleiro" width="500"/> |
+| <img src="images/gravacao 1.png" alt="Tabuleiro" width="500"/> |
 
 ---
 
@@ -96,13 +92,13 @@ Todos esses trabalhos foram feitos por mim.
   
 | Diagrama |
 |------------------------| 
-| <img src="Diagrama Funcoes.png" alt="Diagrama" width="1000"/> |
+| <img src="images/Diagrama Funcoes.png" alt="Diagrama" width="1000"/> |
 - As setas duplas indicam que o módulo recebe e envia informações.
 - Os módulos verdes possuem sua própria execução. O led_process.py é separado pois precisa de permissão especial.
 
 | JSON |
 |------------------------| 
-| <img src="cartas-excel 2.png" alt="json" width="350"/> |
+| <img src="images/cartas-excel 2.png" alt="json" width="350"/> |
 
 
 ---
@@ -125,15 +121,15 @@ Fluxo simplificado abaixo:
 ## 🔍 Simulação de cartas no tabuleiro
 | Carta "herói" junto com uma carta comum, na mesma fileira |
 |------------------------| 
-| <img src="regras 1.png" alt="regras" width="600"/> |
+| <img src="images/regras 1.png" alt="regras" width="600"/> |
 
 | Simulação da pontuação, caso fossem usadas a carta Sirene do Comandante e/ou Nevoeiro |
 |------------------------| 
-| <img src="regras 2.png" alt="regras" width="600"/> |
+| <img src="images/regras 2.png" alt="regras" width="600"/> |
 
 | Outras cartas com efeitos especiais que não podem ser usadas com a carta "herói" |
 |------------------------| 
-| <img src="regras 3.png" alt="regras" width="600"/> |
+| <img src="images/regras 3.png" alt="regras" width="600"/> |
 
 
 --- 
@@ -150,19 +146,19 @@ Fluxo simplificado abaixo:
 |------------------------| 
 | Antes de iniciar a rodada, os leds funcionam como um arco-íris |
 | O arco-íris é ativado durante o jogo ao usar a carta de Incentivo na fileira desejada |
-| <img src="gwent_render(4).png" alt="render" width="700"/> |
-| <img src="gwent_render(2).png" alt="render" width="700"/> |
+| <img src="images/gwent_render(4).png" alt="render" width="700"/> |
+| <img src="images/gwent_render(2).png" alt="render" width="700"/> |
 
 | Efeitos temporais |
 |------------------------| 
 | A fileira com o efeito Nevoeiro, Nevasca ou Tempestade ativo fica com o led acesso em azul |
-| <img src="gwent_render(3).png" alt="render" width="700"/> |
+| <img src="images/gwent_render(3).png" alt="render" width="700"/> |
 
 | Vidas restantes e Botões de ação |
 |------------------------| 
 | Os 2 pares de leds acima do Display indicam a quantidade de vidas restantes de cada jogador |
 | Os 3 botões abaixo do Display são utilizados para ações específicas e possuem leds indicadores |
-| <img src="gwent_render(1).png" alt="render" width="700"/> |
+| <img src="images/gwent_render(1).png" alt="render" width="700"/> |
 
 ## Imagens e Vídeos reais
 
