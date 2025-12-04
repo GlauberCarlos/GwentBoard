@@ -158,12 +158,16 @@ Fluxo simplificado abaixo:
 
 ## 🖼️ Imagens e Vídeos reais 🎬
 
-| Clique para ver o vídeo de apresentação 🔽 |
+| Clique na imagem abaixo para ver o vídeo de apresentação 🔽 |
 |------------------------| 
-| [![Watch the video](https://i.ytimg.com/an_webp/_kUl0WX-bwk/mqdefault_6s.webp?du=3000&sqp=CKWvsskG&rs=AOn4CLB4wq0EPGgHUVJ0v7865k3IRicDsA)](https://www.youtube.com/watch?v=_kUl0WX-bwk) |
 
+[![Gwent Board Video](https://img.youtube.com/vi/_kUl0WX-bwk/hqdefault.jpg)](https://www.youtube.com/watch?v=_kUl0WX-bwk)
 
+| Fotos reais 🖼️ |
+|------------------------| 
 <img src="images/gwent constr (3).jpg" alt="render" width="700"/>
+
+
 
 🚧 🧭 ... Em atualização ...
 
