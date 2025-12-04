@@ -14,6 +14,12 @@
 
 ---
 
+## 🔽 Clique na imagem abaixo para ver o vídeo de apresentação 📽️
+
+[![Gwent Board Video](https://img.youtube.com/vi/_kUl0WX-bwk/hqdefault.jpg)](https://www.youtube.com/watch?v=_kUl0WX-bwk)
+
+---
+
 ## 📝 Lista de peças
 
 - Raspberry Pi 3 Model B
@@ -33,7 +39,9 @@
 ## 🧰 Programação
 
 Python, os pacotes principais são: pygame, RPi.GPIO, rpi_ws281x, mfrc522.
-.
+
+"Fotografia do terminal durante os testes"
+
 <img src="images/gwent constr (4).jpg" alt="terminal" width="500"/>
 
 ---
@@ -156,15 +164,8 @@ Fluxo simplificado abaixo:
 | <img src="images/gwent_render(4).png" alt="render" width="700"/> |
 | <img src="images/gwent_render(3).png" alt="render" width="700"/> |
 
-## 🖼️ Imagens e Vídeos reais 🎬
+## Outras imagens e vídeos 🖼️
 
-| Clique na imagem abaixo para ver o vídeo de apresentação 🔽 |
-|------------------------| 
-
-[![Gwent Board Video](https://img.youtube.com/vi/_kUl0WX-bwk/hqdefault.jpg)](https://www.youtube.com/watch?v=_kUl0WX-bwk)
-
-| Fotos reais 🖼️ |
-|------------------------| 
 <img src="images/gwent constr (3).jpg" alt="render" width="700"/>
 
 
